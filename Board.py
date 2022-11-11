@@ -19,17 +19,22 @@ class Board:
 
     def is_solvable(self):
         inversions = 0
+        arr = []
         for i in range(self.N):
             for j in range(self.N):
-                if self.board[i][j] == 0:
-                    continue
-                for k in range(i, self.N):
-                    for l in range(j, self.N):
-                        if self.board[k][l] == 0:
-                            continue
-                        if self.board[i][j] > self.board[k][l]:
-                            inversions += 1
+                if self.board[i][j] != 0:
+                    arr.append(self.board[i][j])
+        
+        for i in range(self.N * self.N-1):
+            if arr[i] != i+1:
+                for j in range(i + 1, self.N * self.N-1):
+                    if arr[j] == i+1:
+                        inversions += 1
+                        arr[i], arr[j] = arr[j], arr[i]
+                        break
+
         return inversions % 2 == 0
+
 
     def move(self, direction):
         x, y = self.blank
