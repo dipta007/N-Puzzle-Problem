@@ -1,37 +1,52 @@
 import time
 from Board import Board
-from A_star import A_star
 from heuristics import get_heuristic
+from utility import get_heuristics
+from algos.A_star import A_star
+from algos.BFS import BFS
+from algos.DFS import DFS
+from algos.Dijkstra import Dijkstra
+from algos.GBFS import GBFS
 
-def run_A_star():
-    N = int(input())
-    init_board = Board(N, None)
-    init_board.create_random()
-    # init_board.input()
+JUSTIFIED = 28
 
-    while not init_board.is_solvable():
+def main():
+    N = int(input("Number of rows/columns: "))
+    trial = int(input("Number of trials: "))
+    while trial > 0:
+        
+        init_board = Board(N, None)
         init_board.create_random()
-    print("Initial board:")
-    print(init_board)
 
-    for heuristic in ["manhattan", "euclidean", "hamming", "linear_conflict", None]:
-        board = Board(N, get_heuristic(heuristic))
-        board.copy_from(init_board)
+        while not init_board.is_solvable():
+            init_board.create_random()
 
-        print("Heuristic: ", heuristic)
-        print("Solving...")
-        start_time = time.time()
-        a_star = A_star(board)
-        a_star.solve()
+        print("Initial board:")
+        print(init_board)
 
-        if a_star.path_found:
-            print("Path found")
-            print('cost', a_star.path_cost)
-        else:
-            print("Path not found")
-        print("Time: ", time.time() - start_time)
-        print("")
-        # break
+        for algo in [BFS, DFS, Dijkstra, GBFS, A_star]:
+            print(f" {algo.__name__} ".center(4*JUSTIFIED, '-'))
+            for heuristic in get_heuristics(algo.__name__):
+                board = Board(N, get_heuristic(heuristic))
+                board.copy_from(init_board)
+
+                print(f"Heuristic: {heuristic}".ljust(JUSTIFIED), end=" | ")
+                start_time = time.time()
+                solver = algo(board)
+                solver.solve()
+
+                if solver.path_found:
+                    print(f'Cost {solver.path_cost}'.center(JUSTIFIED), end=" | ")
+                    print(f'Nodes expanded {solver.nodes_expanded}'.center(JUSTIFIED), end=" | ")
+                else:
+                    print("Path Not Found".center(JUSTIFIED), end=" | ")
+                    print("Nodes expanded 0".center(JUSTIFIED), end=" | ")
+                print("Time: ", time.time() - start_time)
+
+            print()
+
+        trial -= 1
+
 
 if __name__ == "__main__":
-    run_A_star()
+    main()
