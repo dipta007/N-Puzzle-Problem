@@ -1,8 +1,9 @@
 import random
 import copy
 
-dx = [0, 0, 1, -1]
-dy = [1, -1, 0, 0]
+dir = ["D", "L", "R", "U"]
+dx = [1, 0, -1, 0]
+dy = [0, -1, 0, 1]
 
 class Board:
     def __init__(self, N, heuristic):
@@ -16,8 +17,8 @@ class Board:
         if self.heuristic is not None:
             self.h = self.heuristic(self)
         self.f = self.g + self.h
-
-    def is_solvable(self):
+    
+    def count_inversions(self):
         inversions = 0
         arr = []
         for i in range(self.N):
@@ -26,14 +27,22 @@ class Board:
                     arr.append(self.board[i][j])
         
         for i in range(self.N * self.N-1):
-            if arr[i] != i+1:
-                for j in range(i + 1, self.N * self.N-1):
-                    if arr[j] == i+1:
-                        inversions += 1
-                        arr[i], arr[j] = arr[j], arr[i]
-                        break
+            for j in range(i+1, self.N * self.N-1):
+                if arr[i] > arr[j]:
+                    inversions += 1
+        return inversions
 
-        return inversions % 2 == 0
+    def is_solvable(self):
+        if self.N % 2 == 1:
+            return self.count_inversions() % 2 == 0
+        else:
+            inversions = self.count_inversions()
+            # The blank is on odd row from bottom and number of inversions is even
+            if self.blank[0] % 2 == 1:
+                return inversions % 2 == 0
+            # The blank is on even row from bottom and number of inversions is odd
+            else:
+                return inversions % 2 == 1
 
 
     def move(self, direction):
@@ -115,6 +124,8 @@ class Board:
         return st
     
     def __eq__(self, other):
+        if not isinstance(other, Board):
+            return False
         for i in range(self.N):
             for j in range(self.N):
                 if self.board[i][j] != other.board[i][j]:
@@ -128,7 +139,12 @@ class Board:
             return self.g < other.g
 
     def __hash__(self):
-        return hash(str(self.board))
+        st = ""
+        for i in range(self.N):
+            for j in range(self.N):
+                st += str(self.board[i][j]) + "|"
+            st += "$"
+        return hash(st)
 
     def copy_from(self, other):
         self.N = other.N
