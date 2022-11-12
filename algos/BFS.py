@@ -1,5 +1,5 @@
 from queue import Queue
-import heapq
+from config import MAX_LIMIT
 
 class BFS:
     def __init__(self, start):
@@ -21,6 +21,10 @@ class BFS:
             board = self.open.get()
             vis[board] = True
             self.nodes_expanded += 1
+
+            if self.nodes_expanded > MAX_LIMIT:
+                break
+
             if board.is_solved():
                 self.path_found = True
                 self.path_cost = board.g
@@ -29,7 +33,6 @@ class BFS:
                 new_board = board.move(i)
                 if new_board is None:
                     continue
-                if new_board not in vis:
-                    if new_board not in dist or new_board.g < dist[new_board]:
-                        dist[new_board] = new_board.g
-                        self.open.put(new_board)
+                if new_board not in dist or new_board.g < dist[new_board]:
+                    dist[new_board] = new_board.g
+                    self.open.put(new_board)
