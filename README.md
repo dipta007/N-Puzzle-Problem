@@ -20,6 +20,7 @@ https://dev.to/scottydocs/how-to-write-a-kickass-readme-5af9
 [ ] hill climbing: https://towardsdatascience.com/solve-slide-puzzle-with-hill-climbing-search-algorithm-d7fb93321325
 [ ] https://algorithmsinsight.wordpress.com/graph-theory-2/a-star-in-general/implementing-a-star-to-solve-n-puzzle/
 [ ] https://www.geeksforgeeks.org/n-queen-problem-local-search-using-hill-climbing-with-random-neighbour/
+[ ] Linear Conflict: https://medium.com/swlh/looking-into-k-puzzle-heuristics-6189318eaca2
 
 # Visualization
 [ ] https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
