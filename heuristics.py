@@ -20,7 +20,7 @@ def manhattan(board):
             if(val==-1):
                 continue
 
-            h += abs((val//3)-i) + abs((val%3)-j)
+            h += abs((val//board.N)-i) + abs((val%board.N)-j)
     return h
 
 def euclidean(board):
@@ -31,7 +31,7 @@ def euclidean(board):
             if(val==-1):
                 continue
 
-            h += math.sqrt((abs((val//3)-i))**2 + (abs((val%3)-j))**2)
+            h += math.sqrt((abs((val//board.N)-i))**2 + (abs((val%board.N)-j))**2)
     return h
 
 def hamming(board):
@@ -42,8 +42,27 @@ def hamming(board):
             if(val==-1):
                 continue
 
-            if(val!=i*3+j):
-                h += 1
+            h += abs((val//board.N)-i) + abs((val%board.N)-j)
+    for i in range(board.N):
+        for j in range(board.N):
+            val = board.board[i][j] - 1
+            if(val==-1):
+                continue
+
+            if(val//board.N==i):
+                for k in range(j+1, board.N):
+                    val2 = board.board[i][k] - 1
+                    if(val2==-1):
+                        continue
+                    if(val2//board.N==i and val2%board.N<val%board.N):
+                        h += 2
+            if(val%board.N==j):
+                for k in range(i+1, board.N):
+                    val2 = board.board[k][j] - 1
+                    if(val2==-1):
+                        continue
+                    if(val2%board.N==j and val2//board.N<val//board.N):
+                        h += 2
     return h
 
 def linear_conflict(board):
@@ -54,25 +73,26 @@ def linear_conflict(board):
             if(val==-1):
                 continue
 
-            h += abs((val//3)-i) + abs((val%3)-j)
+            h += abs((val//board.N)-i) + abs((val%board.N)-j)
+            
     for i in range(board.N):
         for j in range(board.N):
             val = board.board[i][j] - 1
             if(val==-1):
                 continue
 
-            if(val//3==i):
+            if(val//board.N==i):
                 for k in range(j+1, board.N):
                     val2 = board.board[i][k] - 1
                     if(val2==-1):
                         continue
-                    if(val2//3==i and val2%3<val%3):
+                    if(val2//board.N==i and val2%board.N<val%board.N):
                         h += 2
-            if(val%3==j):
+            if(val%board.N==j):
                 for k in range(i+1, board.N):
                     val2 = board.board[k][j] - 1
                     if(val2==-1):
                         continue
-                    if(val2%3==j and val2//3<val//3):
+                    if(val2%board.N==j and val2//board.N<val//board.N):
                         h += 2
     return h
