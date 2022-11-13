@@ -22,13 +22,15 @@ class DFS:
             if self.nodes_expanded > MAX_LIMIT:
                 break
 
-            if board.is_solved():
-                self.path_found = True
-                self.path_cost = board.g
-                break
             for i in range(4):
                 new_board = board.move(i)
                 if new_board is None:
                     continue
-                if new_board != board.parent:
+                if new_board not in dist or dist[new_board] <= new_board.g:
+                    dist[new_board] = new_board.g
                     self.open.append(new_board)
+
+        goal = self.start.get_goal()
+        if goal in dist:
+            self.path_found = True
+            self.path_cost = dist[goal]
