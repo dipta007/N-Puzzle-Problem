@@ -93,10 +93,10 @@ class Board:
     def get_goal(self):
         all_nums = [i for i in range(self.N * self.N)]
         all_nums = all_nums[1:] + [0]
-        tmp_board = [[0 for _ in range(self.N)] for _ in range(self.N)]
+        tmp_board = Board(self.N, None)
         for i in range(self.N):
             for j in range(self.N):
-                tmp_board[i][j] = all_nums[i * self.N + j]
+                tmp_board.board[i][j] = all_nums[i * self.N + j]
         return tmp_board
 
     def is_solved(self):
@@ -119,7 +119,14 @@ class Board:
                 st += "------"
             st += "\n"
         
-        st += f"G = {self.g}, H = {self.h}, F = {self.f}\n"
+        if self.g:
+            st += f"G = {self.g} "
+        if self.h:
+            st += f"H = {self.h} "
+        if self.f:
+            st += f"F = {self.f} "
+        if self.g or self.h or self.f:
+            st += "\n"
         
         return st
     
