@@ -18,7 +18,7 @@ class IDA_star:
             if self.path_found:
                 self.path_cost = t
                 break
-            if t >= 35:
+            if t >= 50:
                 break
             bound = t
     

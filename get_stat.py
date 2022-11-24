@@ -18,7 +18,6 @@ def create_stat():
                 stat[algo_name][heuristic][k1] = stat[algo_name][heuristic].get(k1, {})
                 for k2 in ['found', 'not_found', 'all']:
                     stat[algo_name][heuristic][k1][k2] = stat[algo_name][heuristic][k1].get(k2, [])
-    print(stat)
     return stat
 
 
@@ -41,21 +40,20 @@ def get_stat(N):
     stat = create_stat()
     with open(f"./data/{N*N-1}puzzle.in", "r") as f:
         t = int(f.readline().strip())
-        t = 1
         for ci in range(t):
             f.readline()
 
             init_board = Board(N, None)
             init_board.create_from_file(f)
             
-            print(f"Case {ci}\nInitial board:")
+            print(f"Case {ci+1}\nInitial board:")
             print(init_board)
 
             for algo in get_algos(N):
                 algo_name = algo.__name__
                 print(f" {algo_name} ".center(int(4.25*JUSTIFIED), '-'))
                 stat[algo_name] = stat.get(algo_name, {})
-                for heuristic in get_heuristics(algo_name):
+                for heuristic in get_heuristics(algo_name, N):
                     stat[algo_name][heuristic] = stat[algo_name].get(heuristic, {})
                     board = Board(N, get_heuristic(heuristic))
                     board.copy_from(init_board)

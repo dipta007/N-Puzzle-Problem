@@ -25,7 +25,7 @@ def main(N, trial):
 
         for algo in get_algos(N):
             print(f" {algo.__name__} ".center(int(4.25*JUSTIFIED), '-'))
-            for heuristic in get_heuristics(algo.__name__):
+            for heuristic in get_heuristics(algo.__name__, N):
                 board = Board(N, get_heuristic(heuristic))
                 board.copy_from(init_board)
 
