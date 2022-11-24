@@ -77,6 +77,18 @@ class Board:
             self.h = self.heuristic(self)
         self.f = self.g + self.h
 
+    def create_from_file(self, f):
+        for i in range(self.N):
+            row = f.readline().split()
+            for j in range(self.N):
+                self.board[i][j] = int(row[j])
+                if self.board[i][j] == 0:
+                    self.blank = (i, j)
+        self.g = 0
+        if self.heuristic is not None:
+            self.h = self.heuristic(self)
+        self.f = self.g + self.h
+
     def create_random(self):
         all_nums = [i for i in range(self.N * self.N)]
         random.shuffle(all_nums)
