@@ -79,8 +79,8 @@ def get_stat(N):
                     print("Time: ", time_taken)
                     stat = update_stat(stat, algo_name, heuristic, solver.path_cost, solver.nodes_expanded, time_taken, solver.path_found)
 
-                    with open(f"./out/stat_{N}.pickle", "wb") as f:
-                        pickle.dump(stat, f)
+                    with open(f"./out/stat_{N}.pickle", "wb") as op:
+                        pickle.dump(stat, op)
 
                 print()
     output.close()
