@@ -24,8 +24,8 @@ def create_stat():
 def update_stat(stat, algo, heuristic, cost, nodes_expanded, time, path_found):
     stat[algo][heuristic]['nodes_expanded']['all'].append(nodes_expanded)
     stat[algo][heuristic]['time']['all'].append(time)
+    stat[algo][heuristic]['cost']['all'].append(cost)
     if path_found:
-        stat[algo][heuristic]['cost']['all'].append(cost)
         stat[algo][heuristic]['cost']['found'].append(cost)
         stat[algo][heuristic]['nodes_expanded']['found'].append(nodes_expanded)
         stat[algo][heuristic]['time']['found'].append(time)
