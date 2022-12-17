@@ -1,0 +1,2201 @@
+Case 1
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  11 |
+------------------------
+  12 |  13 |  14 |  15 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |   Nodes expanded 54416982    | Time:  2935.419575214386
+Heuristic: linear_conflict   |        Path Not Found        |   Nodes expanded 54416982    | Time:  2799.4136266708374
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 2       | Time:  3.6753995418548584
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.015264749526977539
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.018231630325317383
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.018064260482788086
+
+Case 2
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  11 |
+------------------------
+  12 |  13 |  15 |  14 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |           Cost 44            |    Nodes expanded 1072068    | Time:  49.9339280128479
+Heuristic: linear_conflict   |           Cost 44            |    Nodes expanded 1072068    | Time:  49.92436122894287
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 2       | Time:  0.08230972290039062
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.014825582504272461
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.017572402954101562
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.0180661678314209
+
+Case 3
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  11 |
+------------------------
+  12 |  14 |  13 |  15 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |           Cost 44            |    Nodes expanded 1878540    | Time:  87.41534543037415
+Heuristic: linear_conflict   |           Cost 44            |    Nodes expanded 1878540    | Time:  89.63918781280518
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 2       | Time:  0.16083955764770508
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.015623092651367188
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.01790642738342285
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.019350290298461914
+
+Case 4
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  11 |
+------------------------
+  12 |  14 |  15 |  13 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |    Nodes expanded 9300494    | Time:  453.83968806266785
+Heuristic: linear_conflict   |        Path Not Found        |    Nodes expanded 9300494    | Time:  455.1607699394226
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 2       | Time:  0.753659725189209
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.015048742294311523
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 4       | Time:  0.0359041690826416
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 4       | Time:  0.035338640213012695
+
+Case 5
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  11 |
+------------------------
+  12 |  15 |  13 |  14 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |    Nodes expanded 9164308    | Time:  446.9804093837738
+Heuristic: linear_conflict   |        Path Not Found        |    Nodes expanded 9164308    | Time:  443.23257756233215
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 2       | Time:  0.7595028877258301
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 4       | Time:  0.03139472007751465
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.01764702796936035
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.018639564514160156
+
+Case 6
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  11 |
+------------------------
+  12 |  15 |  14 |  13 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |           Cost 48            |    Nodes expanded 3626740    | Time:  170.90273809432983
+Heuristic: linear_conflict   |           Cost 48            |    Nodes expanded 3626740    | Time:  172.47411513328552
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 2       | Time:  0.3039731979370117
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 4       | Time:  0.030164480209350586
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 7       | Time:  0.0646665096282959
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 7       | Time:  0.06403040885925293
+
+Case 7
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  11 |
+------------------------
+  13 |  12 |  14 |  15 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |           Cost 38            |    Nodes expanded 254737     | Time:  11.775763273239136
+Heuristic: linear_conflict   |           Cost 38            |    Nodes expanded 254737     | Time:  12.16024374961853
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 3       | Time:  0.03950071334838867
+Heuristic: euclidean         |        Path Not Found        |      Nodes expanded 10       | Time:  0.08078885078430176
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.01787590980529785
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.017700672149658203
+
+Case 8
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  11 |
+------------------------
+  13 |  12 |  15 |  14 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |   Nodes expanded 70805229    | Time:  3551.9423446655273
+Heuristic: linear_conflict   |        Path Not Found        |   Nodes expanded 70805229    | Time:  3543.183673620224
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 2       | Time:  4.726756572723389
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.015032529830932617
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.017668724060058594
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.017603158950805664
+
+Case 9
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  11 |
+------------------------
+  13 |  14 |  12 |  15 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |   Nodes expanded 231087592   | Time:  11857.198106765747
+Heuristic: linear_conflict   |        Path Not Found        |   Nodes expanded 231087592   | Time:  11692.656952857971
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 3       | Time:  18.99500608444214
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 4       | Time:  0.03286099433898926
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.0185396671295166
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.020081520080566406
+
+Case 10
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  11 |
+------------------------
+  13 |  14 |  15 |  12 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |           Cost 34            |    Nodes expanded 114796     | Time:  5.628406047821045
+Heuristic: linear_conflict   |           Cost 34            |    Nodes expanded 114796     | Time:  5.473317384719849
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 3       | Time:  0.0382838249206543
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 3       | Time:  0.022601604461669922
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.017945051193237305
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.01790928840637207
+
+Case 11
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  11 |
+------------------------
+  13 |  15 |  12 |  14 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |           Cost 40            |    Nodes expanded 534809     | Time:  24.94443368911743
+Heuristic: linear_conflict   |           Cost 40            |    Nodes expanded 534809     | Time:  25.238246202468872
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 3       | Time:  0.05409359931945801
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 5       | Time:  0.03965449333190918
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 4       | Time:  0.05750870704650879
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 4       | Time:  0.039869070053100586
+
+Case 12
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  11 |
+------------------------
+  13 |  15 |  14 |  12 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |   Nodes expanded 186306864   | Time:  9419.200054645538
+Heuristic: linear_conflict   |        Path Not Found        |   Nodes expanded 186306864   | Time:  9352.388791561127
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 3       | Time:  20.65842580795288
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 3       | Time:  0.023406267166137695
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.01796746253967285
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.0177462100982666
+
+Case 13
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  11 |
+------------------------
+  14 |  12 |  13 |  15 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |   Nodes expanded 47937446    | Time:  2306.602731704712
+Heuristic: linear_conflict   |        Path Not Found        |   Nodes expanded 47937446    | Time:  2314.6837735176086
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 3       | Time:  3.4189293384552
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 8       | Time:  0.05944252014160156
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.017439842224121094
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.018234968185424805
+
+Case 14
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  11 |
+------------------------
+  14 |  12 |  15 |  13 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |           Cost 46            |    Nodes expanded 3657263    | Time:  171.26726913452148
+Heuristic: linear_conflict   |           Cost 46            |    Nodes expanded 3657263    | Time:  173.1991708278656
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 4       | Time:  0.29982852935791016
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 4       | Time:  0.03071904182434082
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 5       | Time:  0.04465675354003906
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 5       | Time:  0.04435563087463379
+
+Case 15
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  11 |
+------------------------
+  14 |  13 |  12 |  15 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |           Cost 42            |    Nodes expanded 1799054    | Time:  84.10967206954956
+Heuristic: linear_conflict   |           Cost 42            |    Nodes expanded 1799054    | Time:  85.18478417396545
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 3       | Time:  0.13736915588378906
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 4       | Time:  0.02985239028930664
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.017361879348754883
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.01753973960876465
+
+Case 16
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  11 |
+------------------------
+  14 |  13 |  15 |  12 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |   Nodes expanded 164424022   | Time:  8198.0083630085
+Heuristic: linear_conflict   |        Path Not Found        |   Nodes expanded 164424022   | Time:  8190.429965019226
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 3       | Time:  9.998565196990967
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 3       | Time:  0.02260303497314453
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.01840353012084961
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.01811838150024414
+
+Case 17
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  11 |
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |   Nodes expanded 29226079    | Time:  1409.1083917617798
+Heuristic: linear_conflict   |        Path Not Found        |   Nodes expanded 29226079    | Time:  1420.5940375328064
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 5       | Time:  2.144824504852295
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 5       | Time:  0.03716325759887695
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 5       | Time:  0.04498648643493652
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 5       | Time:  0.04463958740234375
+
+Case 18
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  11 |
+------------------------
+  14 |  15 |  13 |  12 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |           Cost 40            |    Nodes expanded 344521     | Time:  15.55972146987915
+Heuristic: linear_conflict   |           Cost 40            |    Nodes expanded 344521     | Time:  15.873624086380005
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 4       | Time:  0.04810810089111328
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 4       | Time:  0.0305941104888916
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 5       | Time:  0.04480767250061035
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 5       | Time:  0.04585909843444824
+
+Case 19
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  11 |
+------------------------
+  15 |  12 |  13 |  14 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |           Cost 46            |    Nodes expanded 1430011    | Time:  66.28460144996643
+Heuristic: linear_conflict   |           Cost 46            |    Nodes expanded 1430011    | Time:  66.06034779548645
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 3       | Time:  0.11400270462036133
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 7       | Time:  0.05421042442321777
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.01850724220275879
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.018119335174560547
+
+Case 20
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  11 |
+------------------------
+  15 |  12 |  14 |  13 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |    Nodes expanded 4983537    | Time:  236.23404002189636
+Heuristic: linear_conflict   |        Path Not Found        |    Nodes expanded 4983537    | Time:  232.94294714927673
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 3       | Time:  0.452592134475708
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 7       | Time:  0.051944732666015625
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 7       | Time:  0.06305313110351562
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 7       | Time:  0.0628361701965332
+
+Case 21
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  11 |
+------------------------
+  15 |  13 |  12 |  14 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |   Nodes expanded 28474432    | Time:  1374.6402339935303
+Heuristic: linear_conflict   |        Path Not Found        |   Nodes expanded 28474432    | Time:  1369.3694698810577
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 3       | Time:  2.0761728286743164
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 4       | Time:  0.029753446578979492
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.017519235610961914
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.01761794090270996
+
+Case 22
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  11 |
+------------------------
+  15 |  13 |  14 |  12 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |           Cost 40            |    Nodes expanded 378760     | Time:  17.183448314666748
+Heuristic: linear_conflict   |           Cost 40            |    Nodes expanded 378760     | Time:  17.543490409851074
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 3       | Time:  0.046823740005493164
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 3       | Time:  0.022339820861816406
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.017659664154052734
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.01775646209716797
+
+Case 23
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  11 |
+------------------------
+  15 |  14 |  12 |  13 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |           Cost 46            |    Nodes expanded 1981552    | Time:  92.70336627960205
+Heuristic: linear_conflict   |           Cost 46            |    Nodes expanded 1981552    | Time:  92.83391523361206
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 3       | Time:  0.16766786575317383
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 4       | Time:  0.04933476448059082
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 4       | Time:  0.03549766540527344
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 4       | Time:  0.03526949882507324
+
+Case 24
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  11 |
+------------------------
+  15 |  14 |  13 |  12 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |   Nodes expanded 36855966    | Time:  1835.9805643558502
+Heuristic: linear_conflict   |        Path Not Found        |   Nodes expanded 36855966    | Time:  1889.5416820049286
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 3       | Time:  2.9294509887695312
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 3       | Time:  0.023502111434936523
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.018061399459838867
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.017961502075195312
+
+Case 25
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  12 |
+------------------------
+  11 |  13 |  14 |  15 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |           Cost 38            |    Nodes expanded 215186     | Time:  10.316191673278809
+Heuristic: linear_conflict   |           Cost 38            |    Nodes expanded 215186     | Time:  10.4476318359375
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 2       | Time:  0.02882981300354004
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.016927003860473633
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.0184175968170166
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.018584728240966797
+
+Case 26
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  12 |
+------------------------
+  11 |  13 |  15 |  14 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |   Nodes expanded 58130248    | Time:  2987.897113800049
+Heuristic: linear_conflict   |        Path Not Found        |   Nodes expanded 58130248    | Time:  2943.437324285507
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 4       | Time:  6.410805940628052
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.016224145889282227
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.018892288208007812
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.018186569213867188
+
+Case 27
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  12 |
+------------------------
+  11 |  14 |  13 |  15 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |   Nodes expanded 73952108    | Time:  3768.257359266281
+Heuristic: linear_conflict   |        Path Not Found        |   Nodes expanded 73952108    | Time:  3771.5863580703735
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 2       | Time:  11.129544734954834
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.01658797264099121
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.01911640167236328
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.01988816261291504
+
+Case 28
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  12 |
+------------------------
+  11 |  14 |  15 |  13 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |           Cost 46            |    Nodes expanded 4125350    | Time:  195.318039894104
+Heuristic: linear_conflict   |           Cost 46            |    Nodes expanded 4125350    | Time:  196.08371448516846
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 2       | Time:  0.25893115997314453
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.014796972274780273
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 4       | Time:  0.03543233871459961
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 4       | Time:  0.0361480712890625
+
+Case 29
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  12 |
+------------------------
+  11 |  15 |  13 |  14 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |           Cost 42            |    Nodes expanded 284079     | Time:  12.952902793884277
+Heuristic: linear_conflict   |           Cost 42            |    Nodes expanded 284079     | Time:  13.336591958999634
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 4       | Time:  0.044243812561035156
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 4       | Time:  0.030248165130615234
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.017737865447998047
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.017878293991088867
+
+Case 30
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  12 |
+------------------------
+  11 |  15 |  14 |  13 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |   Nodes expanded 12770937    | Time:  657.7141497135162
+Heuristic: linear_conflict   |        Path Not Found        |   Nodes expanded 12770937    | Time:  751.0520851612091
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 4       | Time:  1.7557284832000732
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.016944169998168945
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 5       | Time:  0.04994940757751465
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 5       | Time:  0.04712343215942383
+
+Case 31
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  12 |
+------------------------
+  13 |  11 |  14 |  15 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |   Nodes expanded 251031877   | Time:  14242.6683511734
+Heuristic: linear_conflict   |        Path Not Found        |   Nodes expanded 251031877   | Time:  14361.980677366257
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 3       | Time:  36.474879026412964
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.038825035095214844
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.03905749320983887
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.01855325698852539
+
+Case 32
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  12 |
+------------------------
+  13 |  11 |  15 |  14 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |           Cost 38            |    Nodes expanded 235776     | Time:  12.422328233718872
+Heuristic: linear_conflict   |           Cost 38            |    Nodes expanded 235776     | Time:  12.347116470336914
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 2       | Time:  0.04040098190307617
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.01705789566040039
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.020630598068237305
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.020612239837646484
+
+Case 33
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  12 |
+------------------------
+  13 |  14 |  11 |  15 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |           Cost 34            |    Nodes expanded 107975     | Time:  5.5163962841033936
+Heuristic: linear_conflict   |           Cost 34            |    Nodes expanded 107975     | Time:  5.6354570388793945
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 3       | Time:  0.02638840675354004
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 3       | Time:  0.02395343780517578
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.01859736442565918
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.018909931182861328
+
+Case 34
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  12 |
+------------------------
+  13 |  14 |  15 |  11 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |   Nodes expanded 292840434   | Time:  17084.6473402977
+Heuristic: linear_conflict   |        Path Not Found        |   Nodes expanded 292840434   | Time:  16983.005262851715
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 2       | Time:  40.68888521194458
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.01724696159362793
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.01914238929748535
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.01834416389465332
+
+Case 35
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  12 |
+------------------------
+  13 |  15 |  11 |  14 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |   Nodes expanded 134638001   | Time:  7537.25782084465
+Heuristic: linear_conflict   |        Path Not Found        |   Nodes expanded 134638001   | Time:  7538.634163141251
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 3       | Time:  9.946694612503052
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 3       | Time:  0.023334264755249023
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.01878666877746582
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.01938939094543457
+
+Case 36
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  12 |
+------------------------
+  13 |  15 |  14 |  11 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |           Cost 38            |    Nodes expanded 372523     | Time:  18.805355072021484
+Heuristic: linear_conflict   |           Cost 38            |    Nodes expanded 372523     | Time:  19.527860164642334
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 2       | Time:  0.041185855865478516
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.01703190803527832
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.021087169647216797
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.02083587646484375
+
+Case 37
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  12 |
+------------------------
+  14 |  11 |  13 |  15 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |           Cost 40            |    Nodes expanded 579063     | Time:  29.68995714187622
+Heuristic: linear_conflict   |           Cost 40            |    Nodes expanded 579063     | Time:  29.593183279037476
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 3       | Time:  0.060799360275268555
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.014801740646362305
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.01909470558166504
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.018653392791748047
+
+Case 38
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  12 |
+------------------------
+  14 |  11 |  15 |  13 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |   Nodes expanded 34026611    | Time:  1836.9198262691498
+Heuristic: linear_conflict   |        Path Not Found        |   Nodes expanded 34026611    | Time:  1823.1472692489624
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 4       | Time:  2.669312000274658
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.01737070083618164
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 5       | Time:  0.05231451988220215
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 5       | Time:  0.05223345756530762
+
+Case 39
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  12 |
+------------------------
+  14 |  13 |  11 |  15 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |   Nodes expanded 163631348   | Time:  9133.413511276245
+Heuristic: linear_conflict   |        Path Not Found        |   Nodes expanded 163631348   | Time:  9240.342705011368
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 3       | Time:  23.756417512893677
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 3       | Time:  0.02661609649658203
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.019425392150878906
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.019240379333496094
+
+Case 40
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  12 |
+------------------------
+  14 |  13 |  15 |  11 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |           Cost 40            |    Nodes expanded 914690     | Time:  47.969505310058594
+Heuristic: linear_conflict   |           Cost 40            |    Nodes expanded 914690     | Time:  48.68889093399048
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 2       | Time:  0.07021713256835938
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.015816926956176758
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.019984960556030273
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.021062612533569336
+
+Case 41
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  12 |
+------------------------
+  14 |  15 |  11 |  13 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |           Cost 44            |    Nodes expanded 2089412    | Time:  110.21004796028137
+Heuristic: linear_conflict   |           Cost 44            |    Nodes expanded 2089412    | Time:  112.51536846160889
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 4       | Time:  0.16540741920471191
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 4       | Time:  0.03559398651123047
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 5       | Time:  0.052846670150756836
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 5       | Time:  0.05345439910888672
+
+Case 42
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  12 |
+------------------------
+  14 |  15 |  13 |  11 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |   Nodes expanded 67359033    | Time:  3712.572499036789
+Heuristic: linear_conflict   |        Path Not Found        |   Nodes expanded 67359033    | Time:  3743.5347509384155
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 6       | Time:  4.9517858028411865
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 4       | Time:  0.032530784606933594
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 5       | Time:  0.05254316329956055
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 5       | Time:  0.05273580551147461
+
+Case 43
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  12 |
+------------------------
+  15 |  11 |  13 |  14 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |   Nodes expanded 24349345    | Time:  1307.386667728424
+Heuristic: linear_conflict   |        Path Not Found        |   Nodes expanded 24349345    | Time:  1327.21852517128
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 3       | Time:  1.9621245861053467
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.017592668533325195
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.02093815803527832
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.020007610321044922
+
+Case 44
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  12 |
+------------------------
+  15 |  11 |  14 |  13 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |           Cost 46            |    Nodes expanded 2576511    | Time:  133.55126476287842
+Heuristic: linear_conflict   |           Cost 46            |    Nodes expanded 2576511    | Time:  138.75308561325073
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 3       | Time:  0.23946166038513184
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.016636371612548828
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 5       | Time:  0.05292940139770508
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 5       | Time:  0.0520319938659668
+
+Case 45
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  12 |
+------------------------
+  15 |  13 |  11 |  14 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |           Cost 42            |    Nodes expanded 747656     | Time:  39.39126396179199
+Heuristic: linear_conflict   |           Cost 42            |    Nodes expanded 747656     | Time:  40.131765365600586
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 3       | Time:  0.07062482833862305
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 3       | Time:  0.026109933853149414
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.020983219146728516
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.04623770713806152
+
+Case 46
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  12 |
+------------------------
+  15 |  13 |  14 |  11 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |   Nodes expanded 65230462    | Time:  3580.5017414093018
+Heuristic: linear_conflict   |        Path Not Found        |   Nodes expanded 65230462    | Time:  3418.3576231002808
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 2       | Time:  4.642562389373779
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.01603865623474121
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.019025325775146484
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.01906871795654297
+
+Case 47
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  12 |
+------------------------
+  15 |  14 |  11 |  13 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |   Nodes expanded 16782823    | Time:  822.2417941093445
+Heuristic: linear_conflict   |        Path Not Found        |   Nodes expanded 16782823    | Time:  828.5965867042542
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 3       | Time:  1.3665378093719482
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 3       | Time:  0.02273726463317871
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 4       | Time:  0.03700590133666992
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 4       | Time:  0.036206960678100586
+
+Case 48
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  12 |
+------------------------
+  15 |  14 |  13 |  11 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |           Cost 44            |    Nodes expanded 1659302    | Time:  77.80128979682922
+Heuristic: linear_conflict   |           Cost 44            |    Nodes expanded 1659302    | Time:  79.70542883872986
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 2       | Time:  0.12384557723999023
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.0157473087310791
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 4       | Time:  0.035834312438964844
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 4       | Time:  0.03661847114562988
+
+Case 49
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  13 |
+------------------------
+  11 |  12 |  14 |  15 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |   Nodes expanded 10515263    | Time:  503.5470564365387
+Heuristic: linear_conflict   |        Path Not Found        |   Nodes expanded 10515263    | Time:  504.4321222305298
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 4       | Time:  0.8888816833496094
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 7       | Time:  0.054406166076660156
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.01742839813232422
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.01773524284362793
+
+Case 50
+Initial board:
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  13 |
+------------------------
+  11 |  12 |  15 |  14 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |           Cost 46            |    Nodes expanded 1010854    | Time:  45.94928956031799
+Heuristic: linear_conflict   |           Cost 46            |    Nodes expanded 1010854    | Time:  46.500288248062134
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 4       | Time:  0.11340880393981934
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 8       | Time:  0.06318783760070801
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.017814159393310547
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.017508745193481445
+
+Case 51
+Initial board:
+------------------------
+  14 |  15 |  12 |  11 |
+------------------------
+  13 |  10 |  9  |  8  |
+------------------------
+  7  |  6  |  5  |  4  |
+------------------------
+  3  |  2  |  1  |  0  |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 3       | Time:  0.00013589859008789062
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 3       | Time:  0.00015616416931152344
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 5       | Time:  0.03165435791015625
+Heuristic: euclidean         |        Path Not Found        |      Nodes expanded 12       | Time:  0.09011292457580566
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 5       | Time:  0.04071760177612305
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 5       | Time:  0.04093027114868164
+
+Case 52
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  10 |  11 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |     Nodes expanded 45773     | Time:  1.8502092361450195
+Heuristic: linear_conflict   |        Path Not Found        |     Nodes expanded 45773     | Time:  1.8387959003448486
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |      Nodes expanded 10       | Time:  0.07456803321838379
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 6       | Time:  0.04836416244506836
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 6       | Time:  0.05049610137939453
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 6       | Time:  0.04929947853088379
+
+Case 53
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  9  |  11 |  10 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |     Nodes expanded 26612     | Time:  1.0750749111175537
+Heuristic: linear_conflict   |        Path Not Found        |     Nodes expanded 26612     | Time:  1.0799181461334229
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 6       | Time:  0.04422307014465332
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.015148162841796875
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 6       | Time:  0.04947495460510254
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 6       | Time:  0.04887247085571289
+
+Case 54
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  10 |  9  |  11 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |     Nodes expanded 19821     | Time:  0.7665066719055176
+Heuristic: linear_conflict   |        Path Not Found        |     Nodes expanded 19821     | Time:  0.7846813201904297
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 9       | Time:  0.06011795997619629
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.01486968994140625
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 6       | Time:  0.04931306838989258
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 6       | Time:  0.04998016357421875
+
+Case 55
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  10 |  11 |  9  |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |     Nodes expanded 11339     | Time:  0.4534132480621338
+Heuristic: linear_conflict   |        Path Not Found        |     Nodes expanded 11339     | Time:  0.45099520683288574
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 6       | Time:  0.03902602195739746
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.014734268188476562
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 6       | Time:  0.04797959327697754
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 6       | Time:  0.047837257385253906
+
+Case 56
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  11 |  9  |  10 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |     Nodes expanded 4830      | Time:  0.18034934997558594
+Heuristic: linear_conflict   |        Path Not Found        |     Nodes expanded 4830      | Time:  0.18970131874084473
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |      Nodes expanded 12       | Time:  0.08190536499023438
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 7       | Time:  0.05422472953796387
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 8       | Time:  0.06990766525268555
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 8       | Time:  0.06994414329528809
+
+Case 57
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  8  |  11 |  10 |  9  |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |     Nodes expanded 4338      | Time:  0.17114996910095215
+Heuristic: linear_conflict   |        Path Not Found        |     Nodes expanded 4338      | Time:  0.1724534034729004
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 8       | Time:  0.05465865135192871
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 4       | Time:  0.03109884262084961
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 8       | Time:  0.0710458755493164
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 8       | Time:  0.06930685043334961
+
+Case 58
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  9  |  8  |  10 |  11 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |    Nodes expanded 225564     | Time:  9.77843952178955
+Heuristic: linear_conflict   |        Path Not Found        |    Nodes expanded 225564     | Time:  9.649480819702148
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 9       | Time:  0.08393478393554688
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 5       | Time:  0.04063272476196289
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 8       | Time:  0.06656646728515625
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 8       | Time:  0.06533002853393555
+
+Case 59
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  9  |  8  |  11 |  10 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |    Nodes expanded 128870     | Time:  5.36086106300354
+Heuristic: linear_conflict   |        Path Not Found        |    Nodes expanded 128870     | Time:  5.409667491912842
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |      Nodes expanded 10       | Time:  0.08479118347167969
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.017028331756591797
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 3       | Time:  0.02750086784362793
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 3       | Time:  0.02724742889404297
+
+Case 60
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  9  |  10 |  8  |  11 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |    Nodes expanded 588810     | Time:  25.941456079483032
+Heuristic: linear_conflict   |        Path Not Found        |    Nodes expanded 588810     | Time:  25.768336296081543
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 7       | Time:  0.10112881660461426
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 5       | Time:  0.03801703453063965
+Heuristic: hamming           |        Path Not Found        |      Nodes expanded 11       | Time:  0.09214496612548828
+Heuristic: linear_conflict   |        Path Not Found        |      Nodes expanded 11       | Time:  0.09182024002075195
+
+Case 61
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  9  |  10 |  11 |  8  |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |    Nodes expanded 930825     | Time:  41.57775402069092
+Heuristic: linear_conflict   |        Path Not Found        |    Nodes expanded 930825     | Time:  41.88745856285095
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 8       | Time:  0.13702607154846191
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.014821052551269531
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.016286134719848633
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.016467571258544922
+
+Case 62
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  9  |  11 |  8  |  10 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |    Nodes expanded 220218     | Time:  9.321913003921509
+Heuristic: linear_conflict   |        Path Not Found        |    Nodes expanded 220218     | Time:  9.336748123168945
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |      Nodes expanded 13       | Time:  0.10813164710998535
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 4       | Time:  0.031004905700683594
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 3       | Time:  0.0243375301361084
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 3       | Time:  0.02489638328552246
+
+Case 63
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  9  |  11 |  10 |  8  |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |    Nodes expanded 544248     | Time:  23.8925199508667
+Heuristic: linear_conflict   |        Path Not Found        |    Nodes expanded 544248     | Time:  24.224578380584717
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 8       | Time:  0.10710787773132324
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.015259027481079102
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 4       | Time:  0.03310036659240723
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 4       | Time:  0.03257465362548828
+
+Case 64
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  10 |  8  |  9  |  11 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |     Nodes expanded 49414     | Time:  1.9848577976226807
+Heuristic: linear_conflict   |        Path Not Found        |     Nodes expanded 49414     | Time:  1.985701084136963
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 9       | Time:  0.06251358985900879
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 5       | Time:  0.03766059875488281
+Heuristic: hamming           |        Path Not Found        |      Nodes expanded 11       | Time:  0.09196257591247559
+Heuristic: linear_conflict   |        Path Not Found        |      Nodes expanded 11       | Time:  0.09271955490112305
+
+Case 65
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  10 |  8  |  11 |  9  |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |     Nodes expanded 22135     | Time:  0.8893685340881348
+Heuristic: linear_conflict   |        Path Not Found        |     Nodes expanded 22135     | Time:  0.9035751819610596
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 5       | Time:  0.03656578063964844
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 5       | Time:  0.039629220962524414
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 5       | Time:  0.040592193603515625
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 5       | Time:  0.0408787727355957
+
+Case 66
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  10 |  9  |  8  |  11 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |    Nodes expanded 259321     | Time:  11.24167251586914
+Heuristic: linear_conflict   |        Path Not Found        |    Nodes expanded 259321     | Time:  11.346304178237915
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 7       | Time:  0.07060384750366211
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 3       | Time:  0.02292323112487793
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 9       | Time:  0.0778350830078125
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 9       | Time:  0.07862687110900879
+
+Case 67
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  10 |  9  |  11 |  8  |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |           Cost 49            |    Nodes expanded 215650     | Time:  9.392768621444702
+Heuristic: linear_conflict   |           Cost 49            |    Nodes expanded 215650     | Time:  9.402541875839233
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 8       | Time:  0.0680246353149414
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.015874862670898438
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.017701148986816406
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.017187118530273438
+
+Case 68
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  10 |  11 |  8  |  9  |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |     Nodes expanded 40146     | Time:  1.695643663406372
+Heuristic: linear_conflict   |        Path Not Found        |     Nodes expanded 40146     | Time:  1.6359789371490479
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 5       | Time:  0.037282466888427734
+Heuristic: euclidean         |        Path Not Found        |      Nodes expanded 19       | Time:  0.1443483829498291
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 5       | Time:  0.04111456871032715
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 5       | Time:  0.039643287658691406
+
+Case 69
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  10 |  11 |  9  |  8  |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |    Nodes expanded 135665     | Time:  5.678230285644531
+Heuristic: linear_conflict   |        Path Not Found        |    Nodes expanded 135665     | Time:  5.689032316207886
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 9       | Time:  0.0749211311340332
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.01560354232788086
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 3       | Time:  0.02494049072265625
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 3       | Time:  0.024854421615600586
+
+Case 70
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  11 |  8  |  9  |  10 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |     Nodes expanded 5256      | Time:  0.20056605339050293
+Heuristic: linear_conflict   |        Path Not Found        |     Nodes expanded 5256      | Time:  0.20993661880493164
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |      Nodes expanded 10       | Time:  0.06916332244873047
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 6       | Time:  0.046115875244140625
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 5       | Time:  0.039681196212768555
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 5       | Time:  0.0392758846282959
+
+Case 71
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  11 |  8  |  10 |  9  |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |     Nodes expanded 4543      | Time:  0.17664003372192383
+Heuristic: linear_conflict   |        Path Not Found        |     Nodes expanded 4543      | Time:  0.17229175567626953
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 9       | Time:  0.06271696090698242
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 5       | Time:  0.04147481918334961
+Heuristic: hamming           |        Path Not Found        |      Nodes expanded 10       | Time:  0.08447432518005371
+Heuristic: linear_conflict   |        Path Not Found        |      Nodes expanded 10       | Time:  0.08514046669006348
+
+Case 72
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  11 |  9  |  8  |  10 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |     Nodes expanded 42539     | Time:  1.7433195114135742
+Heuristic: linear_conflict   |        Path Not Found        |     Nodes expanded 42539     | Time:  1.7294740676879883
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 7       | Time:  0.05026102066040039
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 5       | Time:  0.037778377532958984
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 3       | Time:  0.023055076599121094
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 3       | Time:  0.02303457260131836
+
+Case 73
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  11 |  9  |  10 |  8  |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |    Nodes expanded 136384     | Time:  5.699501991271973
+Heuristic: linear_conflict   |        Path Not Found        |    Nodes expanded 136384     | Time:  5.700902223587036
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 9       | Time:  0.07184219360351562
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.015013933181762695
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.015384674072265625
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.015245914459228516
+
+Case 74
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  11 |  10 |  8  |  9  |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |     Nodes expanded 19991     | Time:  0.7800278663635254
+Heuristic: linear_conflict   |        Path Not Found        |     Nodes expanded 19991     | Time:  0.777641773223877
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 7       | Time:  0.04813337326049805
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 4       | Time:  0.030643463134765625
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 3       | Time:  0.023539066314697266
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 3       | Time:  0.02354741096496582
+
+Case 75
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  7  |
+------------------------
+  11 |  10 |  9  |  8  |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |     Nodes expanded 65937     | Time:  2.625627040863037
+Heuristic: linear_conflict   |        Path Not Found        |     Nodes expanded 65937     | Time:  2.8064568042755127
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 9       | Time:  0.0681910514831543
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.015265226364135742
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.016324996948242188
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.016544818878173828
+
+Case 76
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  8  |
+------------------------
+  7  |  9  |  10 |  11 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |    Nodes expanded 160563     | Time:  6.928422212600708
+Heuristic: linear_conflict   |        Path Not Found        |    Nodes expanded 160563     | Time:  7.023713111877441
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 8       | Time:  0.06737375259399414
+Heuristic: euclidean         |        Path Not Found        |      Nodes expanded 14       | Time:  0.10921573638916016
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.01673102378845215
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.017266273498535156
+
+Case 77
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  8  |
+------------------------
+  7  |  9  |  11 |  10 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |     Nodes expanded 90981     | Time:  3.828219175338745
+Heuristic: linear_conflict   |        Path Not Found        |     Nodes expanded 90981     | Time:  3.849825859069824
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 6       | Time:  0.04744410514831543
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.01490163803100586
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.015774250030517578
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.015670061111450195
+
+Case 78
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  8  |
+------------------------
+  7  |  10 |  9  |  11 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |     Nodes expanded 76444     | Time:  3.150625705718994
+Heuristic: linear_conflict   |        Path Not Found        |     Nodes expanded 76444     | Time:  3.1920034885406494
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |      Nodes expanded 12       | Time:  0.09447407722473145
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.016877174377441406
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.01790761947631836
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.01793527603149414
+
+Case 79
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  8  |
+------------------------
+  7  |  10 |  11 |  9  |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |     Nodes expanded 38315     | Time:  1.574570655822754
+Heuristic: linear_conflict   |        Path Not Found        |     Nodes expanded 38315     | Time:  1.5842924118041992
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 6       | Time:  0.04377555847167969
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.015305519104003906
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.016153812408447266
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.015750646591186523
+
+Case 80
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  8  |
+------------------------
+  7  |  11 |  9  |  10 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |     Nodes expanded 22665     | Time:  0.8936424255371094
+Heuristic: linear_conflict   |        Path Not Found        |     Nodes expanded 22665     | Time:  0.9021246433258057
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |      Nodes expanded 10       | Time:  0.06641221046447754
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 4       | Time:  0.02963089942932129
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 4       | Time:  0.032949209213256836
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 4       | Time:  0.03366494178771973
+
+Case 81
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  8  |
+------------------------
+  7  |  11 |  10 |  9  |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |     Nodes expanded 18912     | Time:  0.7427346706390381
+Heuristic: linear_conflict   |        Path Not Found        |     Nodes expanded 18912     | Time:  0.7535102367401123
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 8       | Time:  0.0571284294128418
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 4       | Time:  0.030560731887817383
+Heuristic: hamming           |        Path Not Found        |      Nodes expanded 12       | Time:  0.10539436340332031
+Heuristic: linear_conflict   |        Path Not Found        |      Nodes expanded 12       | Time:  0.10324740409851074
+
+Case 82
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  8  |
+------------------------
+  9  |  7  |  10 |  11 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |    Nodes expanded 599383     | Time:  26.46265935897827
+Heuristic: linear_conflict   |        Path Not Found        |    Nodes expanded 599383     | Time:  26.67710304260254
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 9       | Time:  0.11720967292785645
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 4       | Time:  0.030014514923095703
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.01574110984802246
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.016339540481567383
+
+Case 83
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  8  |
+------------------------
+  9  |  7  |  11 |  10 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |    Nodes expanded 313052     | Time:  13.387415409088135
+Heuristic: linear_conflict   |        Path Not Found        |    Nodes expanded 313052     | Time:  13.778838634490967
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 9       | Time:  0.10852694511413574
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.015149831771850586
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.01613593101501465
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.015766620635986328
+
+Case 84
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  8  |
+------------------------
+  9  |  10 |  7  |  11 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |    Nodes expanded 984323     | Time:  43.86371684074402
+Heuristic: linear_conflict   |        Path Not Found        |    Nodes expanded 984323     | Time:  44.254003286361694
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 8       | Time:  0.1451880931854248
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.014887332916259766
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.015775203704833984
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.015994787216186523
+
+Case 85
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  8  |
+------------------------
+  9  |  10 |  11 |  7  |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |    Nodes expanded 908575     | Time:  41.14460825920105
+Heuristic: linear_conflict   |        Path Not Found        |    Nodes expanded 908575     | Time:  41.051379680633545
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 6       | Time:  0.12030506134033203
+Heuristic: euclidean         |        Path Not Found        |      Nodes expanded 14       | Time:  0.10588240623474121
+Heuristic: hamming           |        Path Not Found        |      Nodes expanded 10       | Time:  0.09186148643493652
+Heuristic: linear_conflict   |        Path Not Found        |      Nodes expanded 10       | Time:  0.09419775009155273
+
+Case 86
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  8  |
+------------------------
+  9  |  11 |  7  |  10 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |    Nodes expanded 379351     | Time:  16.490944147109985
+Heuristic: linear_conflict   |        Path Not Found        |    Nodes expanded 379351     | Time:  16.60154390335083
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |      Nodes expanded 12       | Time:  0.11998677253723145
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.01542353630065918
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 3       | Time:  0.025884151458740234
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 3       | Time:  0.026778697967529297
+
+Case 87
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  8  |
+------------------------
+  9  |  11 |  10 |  7  |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |    Nodes expanded 568573     | Time:  25.3248074054718
+Heuristic: linear_conflict   |        Path Not Found        |    Nodes expanded 568573     | Time:  24.94482660293579
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 8       | Time:  0.10599637031555176
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 4       | Time:  0.03022480010986328
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.015954017639160156
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.016138792037963867
+
+Case 88
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  8  |
+------------------------
+  10 |  7  |  9  |  11 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |    Nodes expanded 159457     | Time:  6.937557935714722
+Heuristic: linear_conflict   |        Path Not Found        |    Nodes expanded 159457     | Time:  6.8521740436553955
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 8       | Time:  0.0704345703125
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 4       | Time:  0.032762765884399414
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 4       | Time:  0.033345699310302734
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 4       | Time:  0.03257584571838379
+
+Case 89
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  8  |
+------------------------
+  10 |  7  |  11 |  9  |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |     Nodes expanded 62770     | Time:  2.595594882965088
+Heuristic: linear_conflict   |        Path Not Found        |     Nodes expanded 62770     | Time:  2.5915610790252686
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 5       | Time:  0.04099249839782715
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.015519142150878906
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 7       | Time:  0.061853647232055664
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 7       | Time:  0.05886411666870117
+
+Case 90
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  8  |
+------------------------
+  10 |  9  |  7  |  11 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |    Nodes expanded 478112     | Time:  21.116478204727173
+Heuristic: linear_conflict   |        Path Not Found        |    Nodes expanded 478112     | Time:  21.135962963104248
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 8       | Time:  0.09764981269836426
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.01494145393371582
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.01748371124267578
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.015600442886352539
+
+Case 91
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  8  |
+------------------------
+  10 |  9  |  11 |  7  |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |    Nodes expanded 453422     | Time:  20.235299348831177
+Heuristic: linear_conflict   |        Path Not Found        |    Nodes expanded 453422     | Time:  19.909255266189575
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 6       | Time:  0.08992719650268555
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.014632225036621094
+Heuristic: hamming           |        Path Not Found        |      Nodes expanded 12       | Time:  0.10251092910766602
+Heuristic: linear_conflict   |        Path Not Found        |      Nodes expanded 12       | Time:  0.10216045379638672
+
+Case 92
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  8  |
+------------------------
+  10 |  11 |  7  |  9  |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |     Nodes expanded 78797     | Time:  3.305370807647705
+Heuristic: linear_conflict   |        Path Not Found        |     Nodes expanded 78797     | Time:  3.398693084716797
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 5       | Time:  0.04317212104797363
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.014613866806030273
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 5       | Time:  0.04068470001220703
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 5       | Time:  0.044249773025512695
+
+Case 93
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  8  |
+------------------------
+  10 |  11 |  9  |  7  |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |    Nodes expanded 143640     | Time:  6.116878032684326
+Heuristic: linear_conflict   |        Path Not Found        |    Nodes expanded 143640     | Time:  6.057699203491211
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 8       | Time:  0.0702056884765625
+Heuristic: euclidean         |        Path Not Found        |      Nodes expanded 13       | Time:  0.097869873046875
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 8       | Time:  0.06557536125183105
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 8       | Time:  0.0664968490600586
+
+Case 94
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  8  |
+------------------------
+  11 |  7  |  9  |  10 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |     Nodes expanded 23951     | Time:  0.9512290954589844
+Heuristic: linear_conflict   |        Path Not Found        |     Nodes expanded 23951     | Time:  0.9249367713928223
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |      Nodes expanded 11       | Time:  0.07852721214294434
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 6       | Time:  0.0513303279876709
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 4       | Time:  0.03471708297729492
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 4       | Time:  0.03441166877746582
+
+Case 95
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  8  |
+------------------------
+  11 |  7  |  10 |  9  |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |     Nodes expanded 19572     | Time:  0.7492225170135498
+Heuristic: linear_conflict   |        Path Not Found        |     Nodes expanded 19572     | Time:  0.7788431644439697
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |      Nodes expanded 14       | Time:  0.09138011932373047
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 6       | Time:  0.04452323913574219
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 6       | Time:  0.047879695892333984
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 6       | Time:  0.04763293266296387
+
+Case 96
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  8  |
+------------------------
+  11 |  9  |  7  |  10 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |     Nodes expanded 88449     | Time:  3.7143588066101074
+Heuristic: linear_conflict   |        Path Not Found        |     Nodes expanded 88449     | Time:  3.7876534461975098
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 9       | Time:  0.06970095634460449
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.015545845031738281
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.016024112701416016
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.015833377838134766
+
+Case 97
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  8  |
+------------------------
+  11 |  9  |  10 |  7  |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |    Nodes expanded 147220     | Time:  6.332345724105835
+Heuristic: linear_conflict   |        Path Not Found        |    Nodes expanded 147220     | Time:  6.230194568634033
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 8       | Time:  0.06676244735717773
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 6       | Time:  0.04554438591003418
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.015603065490722656
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.015773296356201172
+
+Case 98
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  8  |
+------------------------
+  11 |  10 |  7  |  9  |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |     Nodes expanded 39530     | Time:  1.5864362716674805
+Heuristic: linear_conflict   |        Path Not Found        |     Nodes expanded 39530     | Time:  1.6263532638549805
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 9       | Time:  0.06000995635986328
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.014514923095703125
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.015538215637207031
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.015343189239501953
+
+Case 99
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  8  |
+------------------------
+  11 |  10 |  9  |  7  |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |     Nodes expanded 72883     | Time:  3.0186140537261963
+Heuristic: linear_conflict   |        Path Not Found        |     Nodes expanded 72883     | Time:  2.9733011722564697
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |      Nodes expanded 11       | Time:  0.07926058769226074
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 2       | Time:  0.014703750610351562
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 2       | Time:  0.015677452087402344
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 2       | Time:  0.015738725662231445
+
+Case 100
+Initial board:
+------------------------
+  14 |  15 |  12 |  13 |
+------------------------
+  0  |  1  |  2  |  3  |
+------------------------
+  4  |  5  |  6  |  9  |
+------------------------
+  7  |  8  |  10 |  11 |
+------------------------
+
+------------------------------------------------------- IDA_star ------------------------------------------------------
+Heuristic: hamming           |        Path Not Found        |     Nodes expanded 3396      | Time:  0.12684941291809082
+Heuristic: linear_conflict   |        Path Not Found        |     Nodes expanded 3396      | Time:  0.12486910820007324
+
+----------------------------------------------------- HillClimbing ----------------------------------------------------
+Heuristic: manhattan         |        Path Not Found        |       Nodes expanded 9       | Time:  0.06081843376159668
+Heuristic: euclidean         |        Path Not Found        |       Nodes expanded 7       | Time:  0.05351448059082031
+Heuristic: hamming           |        Path Not Found        |       Nodes expanded 9       | Time:  0.0743565559387207
+Heuristic: linear_conflict   |        Path Not Found        |       Nodes expanded 9       | Time:  0.093994140625
+
+{'IDA_star': {'manhattan': {'cost': {'found': [], 'not_found': [], 'all': []}, 'nodes_expanded': {'found': [], 'not_found': [], 'all': []}, 'time': {'found': [], 'not_found': [], 'all': []}}, 'hamming': {'cost': {'found': [44, 44, 48, 38, 34, 40, 46, 42, 40, 46, 40, 46, 38, 46, 42, 38, 34, 38, 40, 40, 44, 46, 42, 44, 46, 49], 'not_found': [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], 'all': [44, 44, 48, 38, 34, 40, 46, 42, 40, 46, 40, 46, 38, 46, 42, 38, 34, 38, 40, 40, 44, 46, 42, 44, 46, 49]}, 'nodes_expanded': {'found': [1072068, 1878540, 3626740, 254737, 114796, 534809, 3657263, 1799054, 344521, 1430011, 378760, 1981552, 215186, 4125350, 284079, 235776, 107975, 372523, 579063, 914690, 2089412, 2576511, 747656, 1659302, 1010854, 215650], 'not_found': [54416982, 9300494, 9164308, 70805229, 231087592, 186306864, 47937446, 164424022, 29226079, 4983537, 28474432, 36855966, 58130248, 73952108, 12770937, 251031877, 292840434, 134638001, 34026611, 163631348, 67359033, 24349345, 65230462, 16782823, 10515263, 3, 45773, 26612, 19821, 11339, 4830, 4338, 225564, 128870, 588810, 930825, 220218, 544248, 49414, 22135, 259321, 40146, 135665, 5256, 4543, 42539, 136384, 19991, 65937, 160563, 90981, 76444, 38315, 22665, 18912, 599383, 313052, 984323, 908575, 379351, 568573, 159457, 62770, 478112, 453422, 78797, 143640, 23951, 19572, 88449, 147220, 39530, 72883, 3396], 'all': [54416982, 1072068, 1878540, 9300494, 9164308, 3626740, 254737, 70805229, 231087592, 114796, 534809, 186306864, 47937446, 3657263, 1799054, 164424022, 29226079, 344521, 1430011, 4983537, 28474432, 378760, 1981552, 36855966, 215186, 58130248, 73952108, 4125350, 284079, 12770937, 251031877, 235776, 107975, 292840434, 134638001, 372523, 579063, 34026611, 163631348, 914690, 2089412, 67359033, 24349345, 2576511, 747656, 65230462, 16782823, 1659302, 10515263, 1010854, 3, 45773, 26612, 19821, 11339, 4830, 4338, 225564, 128870, 588810, 930825, 220218, 544248, 49414, 22135, 259321, 215650, 40146, 135665, 5256, 4543, 42539, 136384, 19991, 65937, 160563, 90981, 76444, 38315, 22665, 18912, 599383, 313052, 984323, 908575, 379351, 568573, 159457, 62770, 478112, 453422, 78797, 143640, 23951, 19572, 88449, 147220, 39530, 72883, 3396]}, 'time': {'found': [49.9339280128479, 87.41534543037415, 170.90273809432983, 11.775763273239136, 5.628406047821045, 24.94443368911743, 171.26726913452148, 84.10967206954956, 15.55972146987915, 66.28460144996643, 17.183448314666748, 92.70336627960205, 10.316191673278809, 195.318039894104, 12.952902793884277, 12.422328233718872, 5.5163962841033936, 18.805355072021484, 29.68995714187622, 47.969505310058594, 110.21004796028137, 133.55126476287842, 39.39126396179199, 77.80128979682922, 45.94928956031799, 9.392768621444702], 'not_found': [2935.419575214386, 453.83968806266785, 446.9804093837738, 3551.9423446655273, 11857.198106765747, 9419.200054645538, 2306.602731704712, 8198.0083630085, 1409.1083917617798, 236.23404002189636, 1374.6402339935303, 1835.9805643558502, 2987.897113800049, 3768.257359266281, 657.7141497135162, 14242.6683511734, 17084.6473402977, 7537.25782084465, 1836.9198262691498, 9133.413511276245, 3712.572499036789, 1307.386667728424, 3580.5017414093018, 822.2417941093445, 503.5470564365387, 0.00013589859008789062, 1.8502092361450195, 1.0750749111175537, 0.7665066719055176, 0.4534132480621338, 0.18034934997558594, 0.17114996910095215, 9.77843952178955, 5.36086106300354, 25.941456079483032, 41.57775402069092, 9.321913003921509, 23.8925199508667, 1.9848577976226807, 0.8893685340881348, 11.24167251586914, 1.695643663406372, 5.678230285644531, 0.20056605339050293, 0.17664003372192383, 1.7433195114135742, 5.699501991271973, 0.7800278663635254, 2.625627040863037, 6.928422212600708, 3.828219175338745, 3.150625705718994, 1.574570655822754, 0.8936424255371094, 0.7427346706390381, 26.46265935897827, 13.387415409088135, 43.86371684074402, 41.14460825920105, 16.490944147109985, 25.3248074054718, 6.937557935714722, 2.595594882965088, 21.116478204727173, 20.235299348831177, 3.305370807647705, 6.116878032684326, 0.9512290954589844, 0.7492225170135498, 3.7143588066101074, 6.332345724105835, 1.5864362716674805, 3.0186140537261963, 0.12684941291809082], 'all': [2935.419575214386, 49.9339280128479, 87.41534543037415, 453.83968806266785, 446.9804093837738, 170.90273809432983, 11.775763273239136, 3551.9423446655273, 11857.198106765747, 5.628406047821045, 24.94443368911743, 9419.200054645538, 2306.602731704712, 171.26726913452148, 84.10967206954956, 8198.0083630085, 1409.1083917617798, 15.55972146987915, 66.28460144996643, 236.23404002189636, 1374.6402339935303, 17.183448314666748, 92.70336627960205, 1835.9805643558502, 10.316191673278809, 2987.897113800049, 3768.257359266281, 195.318039894104, 12.952902793884277, 657.7141497135162, 14242.6683511734, 12.422328233718872, 5.5163962841033936, 17084.6473402977, 7537.25782084465, 18.805355072021484, 29.68995714187622, 1836.9198262691498, 9133.413511276245, 47.969505310058594, 110.21004796028137, 3712.572499036789, 1307.386667728424, 133.55126476287842, 39.39126396179199, 3580.5017414093018, 822.2417941093445, 77.80128979682922, 503.5470564365387, 45.94928956031799, 0.00013589859008789062, 1.8502092361450195, 1.0750749111175537, 0.7665066719055176, 0.4534132480621338, 0.18034934997558594, 0.17114996910095215, 9.77843952178955, 5.36086106300354, 25.941456079483032, 41.57775402069092, 9.321913003921509, 23.8925199508667, 1.9848577976226807, 0.8893685340881348, 11.24167251586914, 9.392768621444702, 1.695643663406372, 5.678230285644531, 0.20056605339050293, 0.17664003372192383, 1.7433195114135742, 5.699501991271973, 0.7800278663635254, 2.625627040863037, 6.928422212600708, 3.828219175338745, 3.150625705718994, 1.574570655822754, 0.8936424255371094, 0.7427346706390381, 26.46265935897827, 13.387415409088135, 43.86371684074402, 41.14460825920105, 16.490944147109985, 25.3248074054718, 6.937557935714722, 2.595594882965088, 21.116478204727173, 20.235299348831177, 3.305370807647705, 6.116878032684326, 0.9512290954589844, 0.7492225170135498, 3.7143588066101074, 6.332345724105835, 1.5864362716674805, 3.0186140537261963, 0.12684941291809082]}}, 'linear_conflict': {'cost': {'found': [44, 44, 48, 38, 34, 40, 46, 42, 40, 46, 40, 46, 38, 46, 42, 38, 34, 38, 40, 40, 44, 46, 42, 44, 46, 49], 'not_found': [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], 'all': [44, 44, 48, 38, 34, 40, 46, 42, 40, 46, 40, 46, 38, 46, 42, 38, 34, 38, 40, 40, 44, 46, 42, 44, 46, 49]}, 'nodes_expanded': {'found': [1072068, 1878540, 3626740, 254737, 114796, 534809, 3657263, 1799054, 344521, 1430011, 378760, 1981552, 215186, 4125350, 284079, 235776, 107975, 372523, 579063, 914690, 2089412, 2576511, 747656, 1659302, 1010854, 215650], 'not_found': [54416982, 9300494, 9164308, 70805229, 231087592, 186306864, 47937446, 164424022, 29226079, 4983537, 28474432, 36855966, 58130248, 73952108, 12770937, 251031877, 292840434, 134638001, 34026611, 163631348, 67359033, 24349345, 65230462, 16782823, 10515263, 3, 45773, 26612, 19821, 11339, 4830, 4338, 225564, 128870, 588810, 930825, 220218, 544248, 49414, 22135, 259321, 40146, 135665, 5256, 4543, 42539, 136384, 19991, 65937, 160563, 90981, 76444, 38315, 22665, 18912, 599383, 313052, 984323, 908575, 379351, 568573, 159457, 62770, 478112, 453422, 78797, 143640, 23951, 19572, 88449, 147220, 39530, 72883, 3396], 'all': [54416982, 1072068, 1878540, 9300494, 9164308, 3626740, 254737, 70805229, 231087592, 114796, 534809, 186306864, 47937446, 3657263, 1799054, 164424022, 29226079, 344521, 1430011, 4983537, 28474432, 378760, 1981552, 36855966, 215186, 58130248, 73952108, 4125350, 284079, 12770937, 251031877, 235776, 107975, 292840434, 134638001, 372523, 579063, 34026611, 163631348, 914690, 2089412, 67359033, 24349345, 2576511, 747656, 65230462, 16782823, 1659302, 10515263, 1010854, 3, 45773, 26612, 19821, 11339, 4830, 4338, 225564, 128870, 588810, 930825, 220218, 544248, 49414, 22135, 259321, 215650, 40146, 135665, 5256, 4543, 42539, 136384, 19991, 65937, 160563, 90981, 76444, 38315, 22665, 18912, 599383, 313052, 984323, 908575, 379351, 568573, 159457, 62770, 478112, 453422, 78797, 143640, 23951, 19572, 88449, 147220, 39530, 72883, 3396]}, 'time': {'found': [49.92436122894287, 89.63918781280518, 172.47411513328552, 12.16024374961853, 5.473317384719849, 25.238246202468872, 173.1991708278656, 85.18478417396545, 15.873624086380005, 66.06034779548645, 17.543490409851074, 92.83391523361206, 10.4476318359375, 196.08371448516846, 13.336591958999634, 12.347116470336914, 5.6354570388793945, 19.527860164642334, 29.593183279037476, 48.68889093399048, 112.51536846160889, 138.75308561325073, 40.131765365600586, 79.70542883872986, 46.500288248062134, 9.402541875839233], 'not_found': [2799.4136266708374, 455.1607699394226, 443.23257756233215, 3543.183673620224, 11692.656952857971, 9352.388791561127, 2314.6837735176086, 8190.429965019226, 1420.5940375328064, 232.94294714927673, 1369.3694698810577, 1889.5416820049286, 2943.437324285507, 3771.5863580703735, 751.0520851612091, 14361.980677366257, 16983.005262851715, 7538.634163141251, 1823.1472692489624, 9240.342705011368, 3743.5347509384155, 1327.21852517128, 3418.3576231002808, 828.5965867042542, 504.4321222305298, 0.00015616416931152344, 1.8387959003448486, 1.0799181461334229, 0.7846813201904297, 0.45099520683288574, 0.18970131874084473, 0.1724534034729004, 9.649480819702148, 5.409667491912842, 25.768336296081543, 41.88745856285095, 9.336748123168945, 24.224578380584717, 1.985701084136963, 0.9035751819610596, 11.346304178237915, 1.6359789371490479, 5.689032316207886, 0.20993661880493164, 0.17229175567626953, 1.7294740676879883, 5.700902223587036, 0.777641773223877, 2.8064568042755127, 7.023713111877441, 3.849825859069824, 3.1920034885406494, 1.5842924118041992, 0.9021246433258057, 0.7535102367401123, 26.67710304260254, 13.778838634490967, 44.254003286361694, 41.051379680633545, 16.60154390335083, 24.94482660293579, 6.8521740436553955, 2.5915610790252686, 21.135962963104248, 19.909255266189575, 3.398693084716797, 6.057699203491211, 0.9249367713928223, 0.7788431644439697, 3.7876534461975098, 6.230194568634033, 1.6263532638549805, 2.9733011722564697, 0.12486910820007324], 'all': [2799.4136266708374, 49.92436122894287, 89.63918781280518, 455.1607699394226, 443.23257756233215, 172.47411513328552, 12.16024374961853, 3543.183673620224, 11692.656952857971, 5.473317384719849, 25.238246202468872, 9352.388791561127, 2314.6837735176086, 173.1991708278656, 85.18478417396545, 8190.429965019226, 1420.5940375328064, 15.873624086380005, 66.06034779548645, 232.94294714927673, 1369.3694698810577, 17.543490409851074, 92.83391523361206, 1889.5416820049286, 10.4476318359375, 2943.437324285507, 3771.5863580703735, 196.08371448516846, 13.336591958999634, 751.0520851612091, 14361.980677366257, 12.347116470336914, 5.6354570388793945, 16983.005262851715, 7538.634163141251, 19.527860164642334, 29.593183279037476, 1823.1472692489624, 9240.342705011368, 48.68889093399048, 112.51536846160889, 3743.5347509384155, 1327.21852517128, 138.75308561325073, 40.131765365600586, 3418.3576231002808, 828.5965867042542, 79.70542883872986, 504.4321222305298, 46.500288248062134, 0.00015616416931152344, 1.8387959003448486, 1.0799181461334229, 0.7846813201904297, 0.45099520683288574, 0.18970131874084473, 0.1724534034729004, 9.649480819702148, 5.409667491912842, 25.768336296081543, 41.88745856285095, 9.336748123168945, 24.224578380584717, 1.985701084136963, 0.9035751819610596, 11.346304178237915, 9.402541875839233, 1.6359789371490479, 5.689032316207886, 0.20993661880493164, 0.17229175567626953, 1.7294740676879883, 5.700902223587036, 0.777641773223877, 2.8064568042755127, 7.023713111877441, 3.849825859069824, 3.1920034885406494, 1.5842924118041992, 0.9021246433258057, 0.7535102367401123, 26.67710304260254, 13.778838634490967, 44.254003286361694, 41.051379680633545, 16.60154390335083, 24.94482660293579, 6.8521740436553955, 2.5915610790252686, 21.135962963104248, 19.909255266189575, 3.398693084716797, 6.057699203491211, 0.9249367713928223, 0.7788431644439697, 3.7876534461975098, 6.230194568634033, 1.6263532638549805, 2.9733011722564697, 0.12486910820007324]}}}, 'HillClimbing': {'manhattan': {'cost': {'found': [], 'not_found': [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], 'all': []}, 'nodes_expanded': {'found': [], 'not_found': [2, 2, 2, 2, 2, 2, 3, 2, 3, 3, 3, 3, 3, 4, 3, 3, 5, 4, 3, 3, 3, 3, 3, 3, 2, 4, 2, 2, 4, 4, 3, 2, 3, 2, 3, 2, 3, 4, 3, 2, 4, 6, 3, 3, 3, 2, 3, 2, 4, 4, 5, 10, 6, 9, 6, 12, 8, 9, 10, 7, 8, 13, 8, 9, 5, 7, 8, 5, 9, 10, 9, 7, 9, 7, 9, 8, 6, 12, 6, 10, 8, 9, 9, 8, 6, 12, 8, 8, 5, 8, 6, 5, 8, 11, 14, 9, 8, 9, 11, 9], 'all': [2, 2, 2, 2, 2, 2, 3, 2, 3, 3, 3, 3, 3, 4, 3, 3, 5, 4, 3, 3, 3, 3, 3, 3, 2, 4, 2, 2, 4, 4, 3, 2, 3, 2, 3, 2, 3, 4, 3, 2, 4, 6, 3, 3, 3, 2, 3, 2, 4, 4, 5, 10, 6, 9, 6, 12, 8, 9, 10, 7, 8, 13, 8, 9, 5, 7, 8, 5, 9, 10, 9, 7, 9, 7, 9, 8, 6, 12, 6, 10, 8, 9, 9, 8, 6, 12, 8, 8, 5, 8, 6, 5, 8, 11, 14, 9, 8, 9, 11, 9]}, 'time': {'found': [], 'not_found': [3.6753995418548584, 0.08230972290039062, 0.16083955764770508, 0.753659725189209, 0.7595028877258301, 0.3039731979370117, 0.03950071334838867, 4.726756572723389, 18.99500608444214, 0.0382838249206543, 0.05409359931945801, 20.65842580795288, 3.4189293384552, 0.29982852935791016, 0.13736915588378906, 9.998565196990967, 2.144824504852295, 0.04810810089111328, 0.11400270462036133, 0.452592134475708, 2.0761728286743164, 0.046823740005493164, 0.16766786575317383, 2.9294509887695312, 0.02882981300354004, 6.410805940628052, 11.129544734954834, 0.25893115997314453, 0.044243812561035156, 1.7557284832000732, 36.474879026412964, 0.04040098190307617, 0.02638840675354004, 40.68888521194458, 9.946694612503052, 0.041185855865478516, 0.060799360275268555, 2.669312000274658, 23.756417512893677, 0.07021713256835938, 0.16540741920471191, 4.9517858028411865, 1.9621245861053467, 0.23946166038513184, 0.07062482833862305, 4.642562389373779, 1.3665378093719482, 0.12384557723999023, 0.8888816833496094, 0.11340880393981934, 0.03165435791015625, 0.07456803321838379, 0.04422307014465332, 0.06011795997619629, 0.03902602195739746, 0.08190536499023438, 0.05465865135192871, 0.08393478393554688, 0.08479118347167969, 0.10112881660461426, 0.13702607154846191, 0.10813164710998535, 0.10710787773132324, 0.06251358985900879, 0.03656578063964844, 0.07060384750366211, 0.0680246353149414, 0.037282466888427734, 0.0749211311340332, 0.06916332244873047, 0.06271696090698242, 0.05026102066040039, 0.07184219360351562, 0.04813337326049805, 0.0681910514831543, 0.06737375259399414, 0.04744410514831543, 0.09447407722473145, 0.04377555847167969, 0.06641221046447754, 0.0571284294128418, 0.11720967292785645, 0.10852694511413574, 0.1451880931854248, 0.12030506134033203, 0.11998677253723145, 0.10599637031555176, 0.0704345703125, 0.04099249839782715, 0.09764981269836426, 0.08992719650268555, 0.04317212104797363, 0.0702056884765625, 0.07852721214294434, 0.09138011932373047, 0.06970095634460449, 0.06676244735717773, 0.06000995635986328, 0.07926058769226074, 0.06081843376159668], 'all': [3.6753995418548584, 0.08230972290039062, 0.16083955764770508, 0.753659725189209, 0.7595028877258301, 0.3039731979370117, 0.03950071334838867, 4.726756572723389, 18.99500608444214, 0.0382838249206543, 0.05409359931945801, 20.65842580795288, 3.4189293384552, 0.29982852935791016, 0.13736915588378906, 9.998565196990967, 2.144824504852295, 0.04810810089111328, 0.11400270462036133, 0.452592134475708, 2.0761728286743164, 0.046823740005493164, 0.16766786575317383, 2.9294509887695312, 0.02882981300354004, 6.410805940628052, 11.129544734954834, 0.25893115997314453, 0.044243812561035156, 1.7557284832000732, 36.474879026412964, 0.04040098190307617, 0.02638840675354004, 40.68888521194458, 9.946694612503052, 0.041185855865478516, 0.060799360275268555, 2.669312000274658, 23.756417512893677, 0.07021713256835938, 0.16540741920471191, 4.9517858028411865, 1.9621245861053467, 0.23946166038513184, 0.07062482833862305, 4.642562389373779, 1.3665378093719482, 0.12384557723999023, 0.8888816833496094, 0.11340880393981934, 0.03165435791015625, 0.07456803321838379, 0.04422307014465332, 0.06011795997619629, 0.03902602195739746, 0.08190536499023438, 0.05465865135192871, 0.08393478393554688, 0.08479118347167969, 0.10112881660461426, 0.13702607154846191, 0.10813164710998535, 0.10710787773132324, 0.06251358985900879, 0.03656578063964844, 0.07060384750366211, 0.0680246353149414, 0.037282466888427734, 0.0749211311340332, 0.06916332244873047, 0.06271696090698242, 0.05026102066040039, 0.07184219360351562, 0.04813337326049805, 0.0681910514831543, 0.06737375259399414, 0.04744410514831543, 0.09447407722473145, 0.04377555847167969, 0.06641221046447754, 0.0571284294128418, 0.11720967292785645, 0.10852694511413574, 0.1451880931854248, 0.12030506134033203, 0.11998677253723145, 0.10599637031555176, 0.0704345703125, 0.04099249839782715, 0.09764981269836426, 0.08992719650268555, 0.04317212104797363, 0.0702056884765625, 0.07852721214294434, 0.09138011932373047, 0.06970095634460449, 0.06676244735717773, 0.06000995635986328, 0.07926058769226074, 0.06081843376159668]}}, 'euclidean': {'cost': {'found': [], 'not_found': [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], 'all': []}, 'nodes_expanded': {'found': [], 'not_found': [2, 2, 2, 2, 4, 4, 10, 2, 4, 3, 5, 3, 8, 4, 4, 3, 5, 4, 7, 7, 4, 3, 4, 3, 2, 2, 2, 2, 4, 2, 2, 2, 3, 2, 3, 2, 2, 2, 3, 2, 4, 4, 2, 2, 3, 2, 3, 2, 7, 8, 12, 6, 2, 2, 2, 7, 4, 5, 2, 5, 2, 4, 2, 5, 5, 3, 2, 19, 2, 6, 5, 5, 2, 4, 2, 14, 2, 2, 2, 4, 4, 4, 2, 2, 14, 2, 4, 4, 2, 2, 2, 2, 13, 6, 6, 2, 6, 2, 2, 7], 'all': [2, 2, 2, 2, 4, 4, 10, 2, 4, 3, 5, 3, 8, 4, 4, 3, 5, 4, 7, 7, 4, 3, 4, 3, 2, 2, 2, 2, 4, 2, 2, 2, 3, 2, 3, 2, 2, 2, 3, 2, 4, 4, 2, 2, 3, 2, 3, 2, 7, 8, 12, 6, 2, 2, 2, 7, 4, 5, 2, 5, 2, 4, 2, 5, 5, 3, 2, 19, 2, 6, 5, 5, 2, 4, 2, 14, 2, 2, 2, 4, 4, 4, 2, 2, 14, 2, 4, 4, 2, 2, 2, 2, 13, 6, 6, 2, 6, 2, 2, 7]}, 'time': {'found': [], 'not_found': [0.015264749526977539, 0.014825582504272461, 0.015623092651367188, 0.015048742294311523, 0.03139472007751465, 0.030164480209350586, 0.08078885078430176, 0.015032529830932617, 0.03286099433898926, 0.022601604461669922, 0.03965449333190918, 0.023406267166137695, 0.05944252014160156, 0.03071904182434082, 0.02985239028930664, 0.02260303497314453, 0.03716325759887695, 0.0305941104888916, 0.05421042442321777, 0.051944732666015625, 0.029753446578979492, 0.022339820861816406, 0.04933476448059082, 0.023502111434936523, 0.016927003860473633, 0.016224145889282227, 0.01658797264099121, 0.014796972274780273, 0.030248165130615234, 0.016944169998168945, 0.038825035095214844, 0.01705789566040039, 0.02395343780517578, 0.01724696159362793, 0.023334264755249023, 0.01703190803527832, 0.014801740646362305, 0.01737070083618164, 0.02661609649658203, 0.015816926956176758, 0.03559398651123047, 0.032530784606933594, 0.017592668533325195, 0.016636371612548828, 0.026109933853149414, 0.01603865623474121, 0.02273726463317871, 0.0157473087310791, 0.054406166076660156, 0.06318783760070801, 0.09011292457580566, 0.04836416244506836, 0.015148162841796875, 0.01486968994140625, 0.014734268188476562, 0.05422472953796387, 0.03109884262084961, 0.04063272476196289, 0.017028331756591797, 0.03801703453063965, 0.014821052551269531, 0.031004905700683594, 0.015259027481079102, 0.03766059875488281, 0.039629220962524414, 0.02292323112487793, 0.015874862670898438, 0.1443483829498291, 0.01560354232788086, 0.046115875244140625, 0.04147481918334961, 0.037778377532958984, 0.015013933181762695, 0.030643463134765625, 0.015265226364135742, 0.10921573638916016, 0.01490163803100586, 0.016877174377441406, 0.015305519104003906, 0.02963089942932129, 0.030560731887817383, 0.030014514923095703, 0.015149831771850586, 0.014887332916259766, 0.10588240623474121, 0.01542353630065918, 0.03022480010986328, 0.032762765884399414, 0.015519142150878906, 0.01494145393371582, 0.014632225036621094, 0.014613866806030273, 0.097869873046875, 0.0513303279876709, 0.04452323913574219, 0.015545845031738281, 0.04554438591003418, 0.014514923095703125, 0.014703750610351562, 0.05351448059082031], 'all': [0.015264749526977539, 0.014825582504272461, 0.015623092651367188, 0.015048742294311523, 0.03139472007751465, 0.030164480209350586, 0.08078885078430176, 0.015032529830932617, 0.03286099433898926, 0.022601604461669922, 0.03965449333190918, 0.023406267166137695, 0.05944252014160156, 0.03071904182434082, 0.02985239028930664, 0.02260303497314453, 0.03716325759887695, 0.0305941104888916, 0.05421042442321777, 0.051944732666015625, 0.029753446578979492, 0.022339820861816406, 0.04933476448059082, 0.023502111434936523, 0.016927003860473633, 0.016224145889282227, 0.01658797264099121, 0.014796972274780273, 0.030248165130615234, 0.016944169998168945, 0.038825035095214844, 0.01705789566040039, 0.02395343780517578, 0.01724696159362793, 0.023334264755249023, 0.01703190803527832, 0.014801740646362305, 0.01737070083618164, 0.02661609649658203, 0.015816926956176758, 0.03559398651123047, 0.032530784606933594, 0.017592668533325195, 0.016636371612548828, 0.026109933853149414, 0.01603865623474121, 0.02273726463317871, 0.0157473087310791, 0.054406166076660156, 0.06318783760070801, 0.09011292457580566, 0.04836416244506836, 0.015148162841796875, 0.01486968994140625, 0.014734268188476562, 0.05422472953796387, 0.03109884262084961, 0.04063272476196289, 0.017028331756591797, 0.03801703453063965, 0.014821052551269531, 0.031004905700683594, 0.015259027481079102, 0.03766059875488281, 0.039629220962524414, 0.02292323112487793, 0.015874862670898438, 0.1443483829498291, 0.01560354232788086, 0.046115875244140625, 0.04147481918334961, 0.037778377532958984, 0.015013933181762695, 0.030643463134765625, 0.015265226364135742, 0.10921573638916016, 0.01490163803100586, 0.016877174377441406, 0.015305519104003906, 0.02963089942932129, 0.030560731887817383, 0.030014514923095703, 0.015149831771850586, 0.014887332916259766, 0.10588240623474121, 0.01542353630065918, 0.03022480010986328, 0.032762765884399414, 0.015519142150878906, 0.01494145393371582, 0.014632225036621094, 0.014613866806030273, 0.097869873046875, 0.0513303279876709, 0.04452323913574219, 0.015545845031738281, 0.04554438591003418, 0.014514923095703125, 0.014703750610351562, 0.05351448059082031]}}, 'hamming': {'cost': {'found': [], 'not_found': [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], 'all': []}, 'nodes_expanded': {'found': [], 'not_found': [2, 2, 2, 4, 2, 7, 2, 2, 2, 2, 4, 2, 2, 5, 2, 2, 5, 5, 2, 7, 2, 2, 4, 2, 2, 2, 2, 4, 2, 5, 2, 2, 2, 2, 2, 2, 2, 5, 2, 2, 5, 5, 2, 5, 2, 2, 4, 4, 2, 2, 5, 6, 6, 6, 6, 8, 8, 8, 3, 11, 2, 3, 4, 11, 5, 9, 2, 5, 3, 5, 10, 3, 2, 3, 2, 2, 2, 2, 2, 4, 12, 2, 2, 2, 10, 3, 2, 4, 7, 2, 12, 5, 8, 4, 6, 2, 2, 2, 2, 9], 'all': [2, 2, 2, 4, 2, 7, 2, 2, 2, 2, 4, 2, 2, 5, 2, 2, 5, 5, 2, 7, 2, 2, 4, 2, 2, 2, 2, 4, 2, 5, 2, 2, 2, 2, 2, 2, 2, 5, 2, 2, 5, 5, 2, 5, 2, 2, 4, 4, 2, 2, 5, 6, 6, 6, 6, 8, 8, 8, 3, 11, 2, 3, 4, 11, 5, 9, 2, 5, 3, 5, 10, 3, 2, 3, 2, 2, 2, 2, 2, 4, 12, 2, 2, 2, 10, 3, 2, 4, 7, 2, 12, 5, 8, 4, 6, 2, 2, 2, 2, 9]}, 'time': {'found': [], 'not_found': [0.018231630325317383, 0.017572402954101562, 0.01790642738342285, 0.0359041690826416, 0.01764702796936035, 0.0646665096282959, 0.01787590980529785, 0.017668724060058594, 0.0185396671295166, 0.017945051193237305, 0.05750870704650879, 0.01796746253967285, 0.017439842224121094, 0.04465675354003906, 0.017361879348754883, 0.01840353012084961, 0.04498648643493652, 0.04480767250061035, 0.01850724220275879, 0.06305313110351562, 0.017519235610961914, 0.017659664154052734, 0.03549766540527344, 0.018061399459838867, 0.0184175968170166, 0.018892288208007812, 0.01911640167236328, 0.03543233871459961, 0.017737865447998047, 0.04994940757751465, 0.03905749320983887, 0.020630598068237305, 0.01859736442565918, 0.01914238929748535, 0.01878666877746582, 0.021087169647216797, 0.01909470558166504, 0.05231451988220215, 0.019425392150878906, 0.019984960556030273, 0.052846670150756836, 0.05254316329956055, 0.02093815803527832, 0.05292940139770508, 0.020983219146728516, 0.019025325775146484, 0.03700590133666992, 0.035834312438964844, 0.01742839813232422, 0.017814159393310547, 0.04071760177612305, 0.05049610137939453, 0.04947495460510254, 0.04931306838989258, 0.04797959327697754, 0.06990766525268555, 0.0710458755493164, 0.06656646728515625, 0.02750086784362793, 0.09214496612548828, 0.016286134719848633, 0.0243375301361084, 0.03310036659240723, 0.09196257591247559, 0.040592193603515625, 0.0778350830078125, 0.017701148986816406, 0.04111456871032715, 0.02494049072265625, 0.039681196212768555, 0.08447432518005371, 0.023055076599121094, 0.015384674072265625, 0.023539066314697266, 0.016324996948242188, 0.01673102378845215, 0.015774250030517578, 0.01790761947631836, 0.016153812408447266, 0.032949209213256836, 0.10539436340332031, 0.01574110984802246, 0.01613593101501465, 0.015775203704833984, 0.09186148643493652, 0.025884151458740234, 0.015954017639160156, 0.033345699310302734, 0.061853647232055664, 0.01748371124267578, 0.10251092910766602, 0.04068470001220703, 0.06557536125183105, 0.03471708297729492, 0.047879695892333984, 0.016024112701416016, 0.015603065490722656, 0.015538215637207031, 0.015677452087402344, 0.0743565559387207], 'all': [0.018231630325317383, 0.017572402954101562, 0.01790642738342285, 0.0359041690826416, 0.01764702796936035, 0.0646665096282959, 0.01787590980529785, 0.017668724060058594, 0.0185396671295166, 0.017945051193237305, 0.05750870704650879, 0.01796746253967285, 0.017439842224121094, 0.04465675354003906, 0.017361879348754883, 0.01840353012084961, 0.04498648643493652, 0.04480767250061035, 0.01850724220275879, 0.06305313110351562, 0.017519235610961914, 0.017659664154052734, 0.03549766540527344, 0.018061399459838867, 0.0184175968170166, 0.018892288208007812, 0.01911640167236328, 0.03543233871459961, 0.017737865447998047, 0.04994940757751465, 0.03905749320983887, 0.020630598068237305, 0.01859736442565918, 0.01914238929748535, 0.01878666877746582, 0.021087169647216797, 0.01909470558166504, 0.05231451988220215, 0.019425392150878906, 0.019984960556030273, 0.052846670150756836, 0.05254316329956055, 0.02093815803527832, 0.05292940139770508, 0.020983219146728516, 0.019025325775146484, 0.03700590133666992, 0.035834312438964844, 0.01742839813232422, 0.017814159393310547, 0.04071760177612305, 0.05049610137939453, 0.04947495460510254, 0.04931306838989258, 0.04797959327697754, 0.06990766525268555, 0.0710458755493164, 0.06656646728515625, 0.02750086784362793, 0.09214496612548828, 0.016286134719848633, 0.0243375301361084, 0.03310036659240723, 0.09196257591247559, 0.040592193603515625, 0.0778350830078125, 0.017701148986816406, 0.04111456871032715, 0.02494049072265625, 0.039681196212768555, 0.08447432518005371, 0.023055076599121094, 0.015384674072265625, 0.023539066314697266, 0.016324996948242188, 0.01673102378845215, 0.015774250030517578, 0.01790761947631836, 0.016153812408447266, 0.032949209213256836, 0.10539436340332031, 0.01574110984802246, 0.01613593101501465, 0.015775203704833984, 0.09186148643493652, 0.025884151458740234, 0.015954017639160156, 0.033345699310302734, 0.061853647232055664, 0.01748371124267578, 0.10251092910766602, 0.04068470001220703, 0.06557536125183105, 0.03471708297729492, 0.047879695892333984, 0.016024112701416016, 0.015603065490722656, 0.015538215637207031, 0.015677452087402344, 0.0743565559387207]}}, 'linear_conflict': {'cost': {'found': [], 'not_found': [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], 'all': []}, 'nodes_expanded': {'found': [], 'not_found': [2, 2, 2, 4, 2, 7, 2, 2, 2, 2, 4, 2, 2, 5, 2, 2, 5, 5, 2, 7, 2, 2, 4, 2, 2, 2, 2, 4, 2, 5, 2, 2, 2, 2, 2, 2, 2, 5, 2, 2, 5, 5, 2, 5, 2, 2, 4, 4, 2, 2, 5, 6, 6, 6, 6, 8, 8, 8, 3, 11, 2, 3, 4, 11, 5, 9, 2, 5, 3, 5, 10, 3, 2, 3, 2, 2, 2, 2, 2, 4, 12, 2, 2, 2, 10, 3, 2, 4, 7, 2, 12, 5, 8, 4, 6, 2, 2, 2, 2, 9], 'all': [2, 2, 2, 4, 2, 7, 2, 2, 2, 2, 4, 2, 2, 5, 2, 2, 5, 5, 2, 7, 2, 2, 4, 2, 2, 2, 2, 4, 2, 5, 2, 2, 2, 2, 2, 2, 2, 5, 2, 2, 5, 5, 2, 5, 2, 2, 4, 4, 2, 2, 5, 6, 6, 6, 6, 8, 8, 8, 3, 11, 2, 3, 4, 11, 5, 9, 2, 5, 3, 5, 10, 3, 2, 3, 2, 2, 2, 2, 2, 4, 12, 2, 2, 2, 10, 3, 2, 4, 7, 2, 12, 5, 8, 4, 6, 2, 2, 2, 2, 9]}, 'time': {'found': [], 'not_found': [0.018064260482788086, 0.0180661678314209, 0.019350290298461914, 0.035338640213012695, 0.018639564514160156, 0.06403040885925293, 0.017700672149658203, 0.017603158950805664, 0.020081520080566406, 0.01790928840637207, 0.039869070053100586, 0.0177462100982666, 0.018234968185424805, 0.04435563087463379, 0.01753973960876465, 0.01811838150024414, 0.04463958740234375, 0.04585909843444824, 0.018119335174560547, 0.0628361701965332, 0.01761794090270996, 0.01775646209716797, 0.03526949882507324, 0.017961502075195312, 0.018584728240966797, 0.018186569213867188, 0.01988816261291504, 0.0361480712890625, 0.017878293991088867, 0.04712343215942383, 0.01855325698852539, 0.020612239837646484, 0.018909931182861328, 0.01834416389465332, 0.01938939094543457, 0.02083587646484375, 0.018653392791748047, 0.05223345756530762, 0.019240379333496094, 0.021062612533569336, 0.05345439910888672, 0.05273580551147461, 0.020007610321044922, 0.0520319938659668, 0.04623770713806152, 0.01906871795654297, 0.036206960678100586, 0.03661847114562988, 0.01773524284362793, 0.017508745193481445, 0.04093027114868164, 0.04929947853088379, 0.04887247085571289, 0.04998016357421875, 0.047837257385253906, 0.06994414329528809, 0.06930685043334961, 0.06533002853393555, 0.02724742889404297, 0.09182024002075195, 0.016467571258544922, 0.02489638328552246, 0.03257465362548828, 0.09271955490112305, 0.0408787727355957, 0.07862687110900879, 0.017187118530273438, 0.039643287658691406, 0.024854421615600586, 0.0392758846282959, 0.08514046669006348, 0.02303457260131836, 0.015245914459228516, 0.02354741096496582, 0.016544818878173828, 0.017266273498535156, 0.015670061111450195, 0.01793527603149414, 0.015750646591186523, 0.03366494178771973, 0.10324740409851074, 0.016339540481567383, 0.015766620635986328, 0.015994787216186523, 0.09419775009155273, 0.026778697967529297, 0.016138792037963867, 0.03257584571838379, 0.05886411666870117, 0.015600442886352539, 0.10216045379638672, 0.044249773025512695, 0.0664968490600586, 0.03441166877746582, 0.04763293266296387, 0.015833377838134766, 0.015773296356201172, 0.015343189239501953, 0.015738725662231445, 0.093994140625], 'all': [0.018064260482788086, 0.0180661678314209, 0.019350290298461914, 0.035338640213012695, 0.018639564514160156, 0.06403040885925293, 0.017700672149658203, 0.017603158950805664, 0.020081520080566406, 0.01790928840637207, 0.039869070053100586, 0.0177462100982666, 0.018234968185424805, 0.04435563087463379, 0.01753973960876465, 0.01811838150024414, 0.04463958740234375, 0.04585909843444824, 0.018119335174560547, 0.0628361701965332, 0.01761794090270996, 0.01775646209716797, 0.03526949882507324, 0.017961502075195312, 0.018584728240966797, 0.018186569213867188, 0.01988816261291504, 0.0361480712890625, 0.017878293991088867, 0.04712343215942383, 0.01855325698852539, 0.020612239837646484, 0.018909931182861328, 0.01834416389465332, 0.01938939094543457, 0.02083587646484375, 0.018653392791748047, 0.05223345756530762, 0.019240379333496094, 0.021062612533569336, 0.05345439910888672, 0.05273580551147461, 0.020007610321044922, 0.0520319938659668, 0.04623770713806152, 0.01906871795654297, 0.036206960678100586, 0.03661847114562988, 0.01773524284362793, 0.017508745193481445, 0.04093027114868164, 0.04929947853088379, 0.04887247085571289, 0.04998016357421875, 0.047837257385253906, 0.06994414329528809, 0.06930685043334961, 0.06533002853393555, 0.02724742889404297, 0.09182024002075195, 0.016467571258544922, 0.02489638328552246, 0.03257465362548828, 0.09271955490112305, 0.0408787727355957, 0.07862687110900879, 0.017187118530273438, 0.039643287658691406, 0.024854421615600586, 0.0392758846282959, 0.08514046669006348, 0.02303457260131836, 0.015245914459228516, 0.02354741096496582, 0.016544818878173828, 0.017266273498535156, 0.015670061111450195, 0.01793527603149414, 0.015750646591186523, 0.03366494178771973, 0.10324740409851074, 0.016339540481567383, 0.015766620635986328, 0.015994787216186523, 0.09419775009155273, 0.026778697967529297, 0.016138792037963867, 0.03257584571838379, 0.05886411666870117, 0.015600442886352539, 0.10216045379638672, 0.044249773025512695, 0.0664968490600586, 0.03441166877746582, 0.04763293266296387, 0.015833377838134766, 0.015773296356201172, 0.015343189239501953, 0.015738725662231445, 0.093994140625]}}}}
