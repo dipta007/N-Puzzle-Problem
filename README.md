@@ -1,4 +1,4 @@
-# N-Puzzle Solver
+# N-Puzzle Solver ([poster](./pdfs/poster.pdf), [report](./pdfs/report.pdf))
 The goal of this work is to explore and analyze different search strategies and compare the runtime, cost, completeness, and optimality. Three types of search strategies are implemented. These are Uninformed search, Informed Search, and Local Search. Under the Uninformed search, we have implemented Breadth-First Search(BFS), Depth-First Search (DFS), Iterative Deepening DFS, and Dijkstra’s algorithm. Similarly, we have implemented Best-First Search, A* Algorithm, and Iterative Deepening A* as informed searches. Also, Hill Climbing Search is implemented as Local Search
 
 ## Backgrounds
